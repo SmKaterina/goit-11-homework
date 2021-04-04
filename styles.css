@@ -1,0 +1,19 @@
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  text-align: center;
+  border: 3px solid black;
+  padding:  20px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+;}
+.field:not(:last-child) {
+  margin-right: 5px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+}
